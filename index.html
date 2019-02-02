@@ -35,7 +35,7 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <span class="d-block d-lg-none">Kiran Korey</span>
         <span class="d-none d-lg-block">
-          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
+          <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile1.jpg" alt="">
         </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -75,14 +75,17 @@
             <div class="subheading mb-5">9539, University Terrace Dr, Apt G · Charlotte, NC 28262 · (609) 721-4811 ·
                 <a href="mailto:korey@uncc.edu">kkorey@uncc.edu</a>
             </div>
-            <p class="mb-5">I am a highly motivated MS student who is looking forward to challenges and real-world
-                problems.
-                My primary interests lie in the field of <b>FullStack development, Data Analytics, Business Intelligence
-                    and Mobile application development in Android.</b>
-                I have completed <b>AWS Solutions Architect certificate</b> and <b>Java SE 8  Certifications</b>.
+            <p class="mb-5">
+
+                I am a highly motivated graduate student in Computer science department at University of North Carolina at Charlotte who is looking forward to challenges and real-world
+            problems.<br>
+                My concentration is <b>Intelligent System</b> and primary interest also lies in the field of <b>FullStack development, Data Analytics, Business Intelligence
+                    and Mobile application development in Android.</b> <br>
+                I have completed <b>AWS Solutions Architect certificate</b> and <b>Java SE 8  Certifications</b>. <br>
                 I have Knowledge of all phases of SDLC with an experience of <b>3 Years</b> in an agile-based industry.
             </p>
             <ul class="list-inline list-social-icons mb-0">
+                <h3> Find me here</h3>
                 <li class="list-inline-item">
                     <a href="https://www.linkedin.com/in/koreykiran">
                 <span class="fa-stack fa-lg">
@@ -133,9 +136,19 @@
 
                     <h4 class="subheading mb-0">Project:</h4>
                     <p><b>Integrated Genome Browser (IGB): </b>A java based open source desktop application for
-                        bioinformaticians to visualize large-scale genomic data sequences.It is fast, free, and highly
+                        Bioinformaticians to visualize large-scale genomic data sequences.It is fast, free, and highly
                         interactive desktop genome browser ideal for exploring and understanding large-scale data sets
                         from genomics.</p>
+
+                    <ul>
+                        <li>Developed a Java-based desktop OSGI application which is used by bioinformaticians for analyzing and comparing genomes.</li>
+                        <li>Involved in entire SDLC activities of the project, including requirement gathering, analysis, design and development,
+                            and testing and participated in the daily stand-up, Preplanning, and Retro meetings as a part of Agile and SCRUM methodologies.
+                        </li>
+                        <li>Wrote build scripts using Maven and Bitbucket Pipelines to ease the process of managing CI/CD.</li>
+                        <li><b>Tech Stack: </b>Java, OSGi, Webservices, AWS, Bitbucket Pipelines, Docker. </li>
+                    </ul>
+
                     <button class="btn-kk badge"><a
                             href="https://bitbucket.org/lorainelab/integrated-genome-browser/src/master/">Code</a>
                     </button>
@@ -162,13 +175,15 @@
                         match the Media files (Physical file) to file information (Meta data) before it is broadcasted
                         through any channel.</p>
                     <ul>
-                        <li>Worked as Full Stack developer for web application.</li>
-                        <li>Implemented the restful web service components which were consumed by the different
-                            clients.
+                        <li>Worked as Full Stack developer for web application in an agile-based team.</li>
+                        <li>Implemented Proxy API Node Server for securing the RESTful services.
                         </li>
-                        <li><b>Tech Stack: </b>Java(MVC, REST, Spring, Hibernate), AngularJS, NodeJS, MySQL, Jenkins,
-                            AWS, S3, etc.
-                        </li>
+                        <li>Developed REST API's in Spring MVC pattern which was consumed by the different client applications.</li>
+                        <li>Extensively used core java concepts like Collections Framework, and Exception Handling, I/O System, JDBC, Generics.</li>
+                        <li>Developed rich UI for client applications using HTML5, CSS3, JavaScript, and AngularJS for improved customer experience.</li>
+                        <li>Delved into the Entity classes mapped to Hibernate and redesigned to improve the query execution time for faster search results.</li>
+                        <li>Designed and developed a separate spring-boot application for analyzing media processed by the main application which helped in analyzing user usage statistics.</li>
+                        <li><b>Tech Stack: </b>Java, Spring, Hibernate, AngularJS, NodeJS, MySQL, Jenkins, AWS (EC2, S3, Lambda, SNS, SQS), Vidispine, etc.</li>
                     </ul>
                 </div>
                 <div class="resume-date text-md-right">
@@ -183,7 +198,38 @@
     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
         <div class="my-auto">
             <h2 class="mb-5">Projects</h2>
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+
+            <div class="resume-item d-flex flex-column flex-md-row mb-4">
+                <div class="resume-content mr-auto">
+                    <h4 class="mb-0">Review Rating Prediction</h4>
+                    <ul>
+                        <li>A system to predict the rating of the hotels based on the customer reviews using the Naïve Bayes and KNN classification methods which were implemented in distributed way using spark.</li>
+                        <li><b>Tech Stack: Python, Spark, NLTK, AWS EMR Cluster</b></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row mb-4">
+                <div class="resume-content mr-auto">
+                    <h4 class="mb-0">PageRank on Wikipedia</h4>
+                    <ul>
+                        <li>Computed PageRank of hyperlinked Wikipedia documents by implementing PageRank algorithm to calculate their scores which served as an indicator of the importance of the page.</li>
+                        <li><b>Tech Stack: Java, Hadoop MapReduce</b></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row mb-4">
+                <div class="resume-content mr-auto">
+                    <h4 class="mb-0">Search Engine using Term Frequency-Inverse Document Frequency (TF-IDF)</h4>
+                    <ul>
+                        <li>Performed Searching and Ranking of documents based on TF-IDF scores and presented the relevant documents with their relevance score.</li>
+                        <li><b>Tech Stack: Java, Hadoop MapReduce</b></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row mb-4">
                 <div class="resume-content mr-auto">
                     <h4 class="mb-0">Automation of Physics and Chemistry Labs</h4>
                     <ul>
@@ -196,7 +242,30 @@
                 </div>
             </div>
 
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-item d-flex flex-column flex-md-row mb-4">
+                <div class="resume-content mr-auto">
+                    <h4 class="mb-0">Fake News Identification</h4>
+                    <ul>
+                        <li>A system to identify fake news was developed by generating a TF-IDF for each article to find out the important words for a article and used these words to classify the articles. </li>
+                        <li>Techniques such as steaming, smoothing, K-fold was applied and was compared against various classifiers like PassiveAggressiveClassifier, Multinomial Naive Bayes, Logistic regression.</li>
+                        <li><b>Tech Stack: Python, nltk, TFIDF</b></li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="resume-item d-flex flex-column flex-md-row mb-4">
+                <div class="resume-content mr-auto">
+                    <h4 class="mb-0">Dog Breed Detection</h4>
+                    <ul>
+                        <li>Implemented a system which would predict the breed of a dog in the given input image. </li>
+                        <li>A fine grain classifier was built using CNN and was used to first detect if the given image is of a dog and then identify the breed of the dog.</li>
+                        <li><b>Tech Stack: Python, Machine Learning, CNN</b></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="resume-item d-flex flex-column flex-md-row mb-4">
                 <div class="resume-content mr-auto">
                     <h4 class="mb-0">Server Automation System</h4>
                     <ul>
@@ -207,7 +276,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-item d-flex flex-column flex-md-row mb-4">
                 <div class="resume-content mr-auto">
                     <h4 class="mb-0">Employee Appraisal Management System (Web App + Outlook Plugin)</h4>
                     <ul>
@@ -228,7 +297,7 @@
                 <div class="resume-content mr-auto">
                     <h3 class="mb-0">University of North Carolina Charlotte</h3>
                     <div class="subheading mb-2">Master of Science in Computer Science.</div>
-                    <h5 class="mb-0">GPA: 4.0</h5>
+                    <h5 class="mb-0">GPA: 3.9</h5>
                     <div><b>Coursework:</b> Mobile Application Development, Network Based Application Development, Cloud Computing for Data
                         Analysis, Natural Language Processing, Intelligent Systems, Machine Learning, Algorithms and Data Structures, Software System design & implementation.</div>
                 </div>
